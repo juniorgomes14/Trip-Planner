@@ -1,0 +1,205 @@
+.Details-container {
+    display: flex;
+    justify-content: center;
+
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0; 
+
+}
+.details-card {
+    background-color: white;
+  
+    padding: 10px;
+    
+    border-radius: 40px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    max-width: 400px;
+   
+    text-align: center;
+}
+
+.details-card h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.details-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.details-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.details-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.details-group input:focus {
+    border-color: #007bff;
+}
+
+.btn-submit {
+    background-color: #b60f15;
+    color: #fff;
+   
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+form button {
+    
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px; 
+    transition: background-color 0.3s ease; 
+}
+.buttonForm{
+    display: flex;
+    justify-content: center;
+}
+
+
+.update-btn {
+    background-color: #dc3545; 
+    color: white;
+}
+
+
+.update-btn:hover {
+    background-color: #c82333; 
+}
+
+
+
+.cancel-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.edit-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .form {
+        padding: 30px;
+    }
+}
+
+
+
+    .trip-item {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+
+        background-color: #f9f9f9; 
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px; 
+        margin-bottom: 15px; 
+        width: 250px;
+        height: 250px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .trip-item h3 {
+        margin: 0 0 10px 0;
+        color: #333;
+    }
+    
+    .trip-item p {
+        margin: 5px 0;
+        color: #666; /* Cor mais clara para as informações */
+        font-size: 14px;
+    }
+    .trip-item p.activities {
+        justify-content: center;
+        width: 100% ;
+        font-size: 16px; /* Definir o tamanho da fonte para o texto das atividades */
+        font-weight: bold; /* Opcional: deixar o texto em negrito para destacar */
+        color: #444; /* Cor mais escura para destacar */
+    }
+    
+    .trip-item .buttons {
+        display: flex;
+        justify-content: flex-start; /* Alinha os botões à esquerda */
+        margin-top: 10px; /* Espaçamento entre as informações e os botões */
+    }
+    
+    .trip-item button {
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-right: 10px; /* Espaçamento entre os botões */
+        transition: background-color 0.3s ease; /* Transição suave */
+    }
+    
+    .trip-item button.edit-btn {
+        background-color: #007bff; /* Azul para o botão de editar */
+        color: white;
+    }
+    
+    .trip-item button.edit-btn:hover {
+        background-color: #0056b3; /* Azul mais escuro no hover */
+    }
+    
+    .trip-item button.remove-btn {
+        background-color: #dc3545; /* Vermelho para o botão de remover */
+        color: white;
+    }
+    
+    .trip-item button.remove-btn:hover {
+        background-color: #c82333; /* Vermelho mais escuro no hover */
+    }
+    
+    /* Ajuste de responsividade */
+    @media (max-width: 768px) {
+        .trip-item {
+            padding: 15px;
+        }
+    
+        .trip-item p {
+            font-size: 12px;
+        }
+    
+        .trip-item button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+    }
+    

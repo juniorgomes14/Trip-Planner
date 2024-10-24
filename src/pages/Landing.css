@@ -1,0 +1,64 @@
+.header{
+
+ width: 100vw; 
+ height: 100vh; 
+ display: flex; 
+ justify-content: center;
+ align-items: center; 
+
+}
+#image-bg{
+    background-image: url("../assets/background.png") ;
+    background-size: cover;
+    
+    
+
+    
+}
+#text-title{
+    font-size: 59px;
+    color: #FFA500;
+  
+    text-shadow: 1px 5px#743810;
+    
+    
+}
+.text{
+    font-size: 19px;
+    margin-bottom: 20px ;
+    color:rgb(255, 255, 255);
+    font-family: "Roboto bold";
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    background-color: #312e2e;
+    border-radius: 24px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.start-planning-btn, .get-app-btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+
+
+.start-planning-btn {
+  background-color: #b60f15;
+  color: white;
+}
+
+.get-app-btn {
+  background-color: #000;
+  border: 2px solid #333;
+  color:white;
+
+}
+
+

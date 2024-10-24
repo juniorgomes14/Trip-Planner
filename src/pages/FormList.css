@@ -1,0 +1,15 @@
+
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../assets/background-form.png');
+    background-size: cover;
+    background-position: center;
+}
+.view-details{
+    display: flex;
+    justify-content: center;
+    
+}
