@@ -1,8 +1,8 @@
-                                                                    Descrição:
+                                                                  # Descrição:
 
 Este é um aplicativo web de planejamento de viagens, desenvolvido em React. Ele permite que os usuários adicionem, editem e removam viagens, bem como planejem as atividades da viagem. O aplicativo utiliza o localStorage do navegador para salvar as informações de viagem, garantindo que os dados persistam entre sessões. A interface é organizada com formulários para adicionar novas viagens e uma lista para visualizar e gerenciar as viagens já cadastradas.
 
-                                                                Funcionalidades:
+                                                               # Funcionalidades:
 
 
 Adicionar novas viagens com detalhes como destino, data de início, data de término e atividades planejadas.
@@ -17,7 +17,7 @@ FormList.jsx: Página principal que combina o formulário e a lista de viagens.
 App.js: Componente raiz que gerencia as rotas do aplicativo.
 
 
-                                                                        Instalação:
+                                                                        # Instalação:
 
 Pré-requisitos:
 
@@ -51,7 +51,7 @@ O aplicativo estará disponível no navegador em http://localhost:3000.
 
 
 
-Uso:
+# Uso:
 
 Acesse a página inicial do aplicativo e navegue até a seção de planejamento de viagens.
 Utilize o formulário para adicionar as informações da viagem, como destino, datas e atividades.
