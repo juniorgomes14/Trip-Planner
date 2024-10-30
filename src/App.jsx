@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'; 
-import Landing from './pages/Landing';
+import Landing from './pages/landing';
 import { FormList } from './pages/FormList';
 import "./App.css";
 
