@@ -39,7 +39,7 @@ export  function FormList() {
       <TripForm addTrip={addTrip} />
       </div> 
 
-      <div className=''>
+      <div className='tripList'>
         <TripList trips={trips} editTrip={editTrip} removeTrip={removeTrip}/>
         </div> 
      

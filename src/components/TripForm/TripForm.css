@@ -77,7 +77,12 @@
 }
 
 @media (max-width: 768px) {
-    .form {
-        padding: 30px;
+    .form-container {
+        padding: 10px;
+    }
+
+    .btn-submit {
+        padding: 8px;
+        font-size: 1rem;
     }
 }

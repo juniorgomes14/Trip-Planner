@@ -6,6 +6,7 @@ export function TripItem({ trip, editTrip, removeTrip }) {
     const [updatedTrip, setUpdatedTrip] = useState(trip);
 
     const handleEditChange = (e) => {
+        const { name, value } = e.target; 
         
         if (name === "activities") {
             setUpdatedTrip({ ...updatedTrip, [name]: value.split(',').map(activity => activity.trim()) });

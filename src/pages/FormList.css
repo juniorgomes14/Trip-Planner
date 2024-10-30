@@ -13,3 +13,14 @@
     justify-content: center;
     
 }
+@media (max-width: 768px) {
+    .view-details {
+        padding: 10px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tripList{
+        margin-left: 50px;
+    }
+}

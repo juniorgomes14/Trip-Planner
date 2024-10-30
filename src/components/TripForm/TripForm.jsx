@@ -37,7 +37,7 @@ export function TripForm({ addTrip }) {
 
 
     return (
-        <div className="form-container">
+        <div className="form-container flex">
             <form onSubmit={Submeter} className='form'>
             
                 <h1 className='text-2xl'>Planejamento de Viagem</h1>
