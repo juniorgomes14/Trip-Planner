@@ -14,6 +14,10 @@
     
 }
 @media (max-width: 768px) {
+    .App{
+        background-size: cover;
+        background-position: center;
+    }
     .view-details {
         padding: 10px; 
         display: flex;
