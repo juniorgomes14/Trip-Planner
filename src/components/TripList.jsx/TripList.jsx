@@ -1,6 +1,6 @@
 import React from 'react';
 import TripItem from '../TripItem/TripItem';
-import "./tripList.css"
+import "./TripList.css"
 
 
 export function TripList({ trips, editTrip, removeTrip }) {
