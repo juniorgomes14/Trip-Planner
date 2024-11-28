@@ -1,3 +1,5 @@
+                                                                  #Link
+  #https://trip-plannercv.netlify.app/
                                                                   # Descrição:
 
 Este é um aplicativo web de planejamento de viagens, desenvolvido em React. Ele permite que os usuários adicionem, editem e removam viagens, bem como planejem as atividades da viagem. O aplicativo utiliza o localStorage do navegador para salvar as informações de viagem, garantindo que os dados persistam entre sessões. A interface é organizada com formulários para adicionar novas viagens e uma lista para visualizar e gerenciar as viagens já cadastradas.
@@ -19,7 +21,7 @@ App.js: Componente raiz que gerencia as rotas do aplicativo.
 
                                                                         # Instalação:
 
-Pré-requisitos:
+#Pré-requisitos:
 
 Node.js instalado (https://nodejs.org/)
 NPM ou Yarn instalado
@@ -41,11 +43,11 @@ npm install
 yarn install
 Executar o projeto localmente:
 
-Para iniciar o servidor de desenvolvimento:
+#Para iniciar o servidor de desenvolvimento:
 bash
 Copiar código
 npm start
-# ou:
+ ou:
 yarn start
 O aplicativo estará disponível no navegador em http://localhost:3000.
 
@@ -57,4 +59,4 @@ Acesse a página inicial do aplicativo e navegue até a seção de planejamento 
 Utilize o formulário para adicionar as informações da viagem, como destino, datas e atividades.
 Na lista de viagens, você pode ver as viagens planejadas, e tem a opção de editar ou remover cada viagem.
 Navegação:
-A navegação é feita por meio de rotas utilizando o React Router. Na página principal, há links para as páginas de FormList (lista e formulário de viagens).
+A navegação é feita por meio de rotas utilizando o React Router. Na página principal, há links para as páginas de FormList (lista e formulário de viagens
