@@ -1,5 +1,5 @@
                                                                   #Link
-  #https://trip-plannercv.netlify.app/
+  https://trip-plannercv.netlify.app/
 
   
                                                                   # Descrição:
@@ -23,7 +23,7 @@ App.js: Componente raiz que gerencia as rotas do aplicativo.
 
                                                                         # Instalação:
 
-#Pré-requisitos:
+Pré-requisitos:
 
 Node.js instalado (https://nodejs.org/)
 NPM ou Yarn instalado
