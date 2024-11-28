@@ -1,5 +1,7 @@
                                                                   #Link
   #https://trip-plannercv.netlify.app/
+
+  
                                                                   # Descrição:
 
 Este é um aplicativo web de planejamento de viagens, desenvolvido em React. Ele permite que os usuários adicionem, editem e removam viagens, bem como planejem as atividades da viagem. O aplicativo utiliza o localStorage do navegador para salvar as informações de viagem, garantindo que os dados persistam entre sessões. A interface é organizada com formulários para adicionar novas viagens e uma lista para visualizar e gerenciar as viagens já cadastradas.
