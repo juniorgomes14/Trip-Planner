@@ -4,7 +4,7 @@ function Landing(){
     const navigate= useNavigate()
 
     const startPlanning = () =>{
-        navigate("/formList")
+        navigate("/formlist")
     }
     return(
         <div id="image-bg" className="header">
