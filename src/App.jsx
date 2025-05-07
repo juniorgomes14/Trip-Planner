@@ -15,13 +15,13 @@ function App() {
   
         <nav>
         <NavLink to="/" title="Landing"></NavLink>
-        <NavLink to="/formList" title="FormList"></NavLink>
+        <NavLink to="/formlist" title="FormList"></NavLink>
         
           
         </nav>
         <Routes>
          <Route exact path="/" element={<Landing />} />
-         <Route path="/formList" element={<FormList />} />
+         <Route path="/formlist" element={<FormList />} />
          
           
         </Routes>
